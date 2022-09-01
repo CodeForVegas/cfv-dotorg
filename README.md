@@ -1,3 +1,13 @@
+# CodeforVegas.org
+
+**THIS PROJECT IS CURRENTLY IN PROGRESS**
+
+The stack currently being used is:<br>
+🚀 [Astro](https://astro.build)<br>
+🌬 [Tailwind CSS](https://tailwindcss.com/)
+
+See below for more information about Astro and how to get started.
+
 # Welcome to [Astro](https://astro.build)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
