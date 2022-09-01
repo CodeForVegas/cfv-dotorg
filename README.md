@@ -6,6 +6,8 @@ The stack currently being used is:<br>
 🚀 [Astro](https://astro.build)<br>
 🌬 [Tailwind CSS](https://tailwindcss.com/)
 
+Before contributing, please review our [Code of Conduct](https://github.com/CodeForVegas/.github/blob/main/CODE_OF_CONDUCT.md) and [Contribution Guidelines](https://github.com/CodeForVegas/.github/blob/main/CONTRIBUTING.md).
+
 See below for more information about Astro and how to get started.
 
 # Welcome to [Astro](https://astro.build)
