@@ -109,7 +109,7 @@
         <div class="w-full">
           <div class="flex items-center justify-between -m-2">
             <div id="close-menu" class="w-auto p-2">
-              <a class="navbar-burger" href="#">
+              <button class="navbar-burger">
                 <svg
                   width="24"
                   height="24"
@@ -124,7 +124,7 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"></path>
                 </svg>
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -132,6 +132,7 @@
           <ul>
             <li class="mb-10">
               <a
+                id="menu-about"
                 class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
                 href="#about-us">About</a
               >
@@ -235,6 +236,7 @@
   const menuButton = document.getElementById("menu-button");
   const navMenu = document.getElementById("nav-menu");
   const closeMenu = document.getElementById("close-menu");
+  const menuAbout = document.getElementById("menu-about");
 
   menuButton.addEventListener("click", () => {
     if (navMenu.classList.contains("hidden")) {
@@ -245,6 +247,14 @@
   });
 
   closeMenu.addEventListener("click", () => {
+    if (navMenu.classList.contains("hidden")) {
+      navMenu.classList.remove("hidden");
+    } else {
+      navMenu.classList.add("hidden");
+    }
+  });
+
+  menuAbout.addEventListener("click", () => {
     if (navMenu.classList.contains("hidden")) {
       navMenu.classList.remove("hidden");
     } else {
